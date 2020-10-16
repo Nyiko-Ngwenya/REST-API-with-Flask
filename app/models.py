@@ -6,7 +6,5 @@ class Character(db.Model):
     trait = db.Column(db.String(120))
     cost = db.Column(db.Integer)
     
-
-
     def __repr__(self):
         return '<Character {}>'.format(self.name) 
